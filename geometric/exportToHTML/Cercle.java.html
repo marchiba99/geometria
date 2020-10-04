@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Cercle.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #cc7832;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Cercle.java</font>
+</center></td></tr></table>
+<pre>
+
+<span class="s1">public class </span><span class="s0">Cercle </span><span class="s1">extends </span><span class="s0">Figura{</span>
+    <span class="s1">private double </span><span class="s0">r</span><span class="s1">;</span>
+    <span class="s1">public </span><span class="s0">Cercle(</span><span class="s1">double </span><span class="s0">r) {</span>
+        <span class="s1">this</span><span class="s0">.r = r</span><span class="s1">;</span>
+    <span class="s0">}</span>
+    <span class="s1">public double </span><span class="s0">area() {</span>
+        <span class="s1">return </span><span class="s0">Math.PI * Math.pow(</span><span class="s1">this</span><span class="s0">.r</span><span class="s1">, </span><span class="s2">2</span><span class="s0">)</span><span class="s1">;</span>
+    <span class="s0">}</span>
+
+    <span class="s0">@Override</span>
+    <span class="s1">public </span><span class="s0">String toString() {</span>
+        <span class="s1">return </span><span class="s3">&quot;Cercle r:&quot; </span><span class="s0">+ </span><span class="s1">this</span><span class="s0">.r + </span><span class="s3">&quot;area: ((&quot;</span><span class="s0">+</span><span class="s1">this</span><span class="s0">.area()+</span><span class="s3">&quot;))&quot;</span><span class="s1">;</span>
+    <span class="s0">}</span>
+<span class="s0">}</span>
+
+</pre>
+</body>
+</html>
